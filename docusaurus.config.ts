@@ -42,12 +42,12 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           // editUrl: "https://github.com/calfus-open-source/magikube",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl: "https://github.com/calfus-open-source/magikube",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   // editUrl: "https://github.com/calfus-open-source/magikube",
+        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -97,19 +97,6 @@ const config: Config = {
             {
               label: "Discord",
               href: "https://discord.gg/pmNraYsj",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/calfus-open-source/magikube",
             },
           ],
         },
