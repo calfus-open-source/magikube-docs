@@ -73,7 +73,7 @@ const config: Config = {
         },
         // { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://discord.gg/pmNraYsj",
+          href: "https://discord.gg/p5be3x7k",
           label: "Discord",
           position: "right",
         },
@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: "Discord",
-              href: "https://discord.gg/pmNraYsj",
+              href: "https://discord.gg/p5be3x7k",
             },
           ],
         },
