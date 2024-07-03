@@ -1,4 +1,4 @@
-## Target - K8s
+## New Infrastructure
 To setup new AWS infrastructure, run following steps
 
 1. Start with new infrastructure creation 
@@ -15,3 +15,11 @@ magikube new PROJECT_NAME
 9. If you are creating a `non-production` environment, then select one or more lifecyles in `Select Lifecycle(s)`
 
 Now let magic happen 
+
+## Destroy
+🚨 If you proceed with this command, be aware that it will be a catastrophic event and can not be reverted. 🚨
+
+In case you need to destroy infrastructure that was created using `magikube`, you can run
+```bash
+magikube destroy PROJECT_NAME
+```

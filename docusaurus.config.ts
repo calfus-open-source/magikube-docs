@@ -73,6 +73,11 @@ const config: Config = {
         },
         // { to: "/blog", label: "Blog", position: "left" },
         {
+          href: "https://discord.gg/pmNraYsj",
+          label: "Discord",
+          position: "right",
+        },
+        {
           href: "https://github.com/calfus-open-source/magikube",
           label: "GitHub",
           position: "right",
