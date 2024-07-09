@@ -1,5 +1,4 @@
-For AWS hosted target environments please use following links
+For supported frontend applications, please use following links
 
-- [Fargate](./Fargate.md)
-- [K8s](./K8s.md)
-- [Nodegroup](./Nodegroup.md)
+- [REACT](./React.md)
+- [NEXT](./Next.md)
