@@ -17,7 +17,7 @@ magikube new PROJECT_NAME
 11. If you are creating a `non-production` environment, then select one or more lifecyles in `Select Lifecycle(s)`.
 12. Enter your git user name in the `What is your git user name?` prompt.
 13. Please choose `react` from the options listed in the `Select a frontend application type` prompt.
-14. To start react application, move into <PROJECT_NAME>/my-app-ui directory and run below command:
+14. To start react application, move into `PROJECT_NAME/my-app-ui` directory and run below command:
 ```bash
 npm start
 ```
