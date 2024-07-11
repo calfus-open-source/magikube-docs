@@ -1,5 +1,5 @@
-## How to Deploy a NEXT Application using Magikube
-To deploy a NEXT application along with its cloud infrastructure, please follow these steps:
+## How to Deploy a Node Application using Magikube
+To deploy a Node application along with its cloud infrastructure, please follow these steps:
 
 1. Create a new project
 ```bash
@@ -16,10 +16,11 @@ magikube new PROJECT_NAME
 10. Please choose one of the available environment type from the options listed in the `Select an Environment` prompt.
 11. If you are creating a `non-production` environment, then select one or more lifecyles in `Select Lifecycle(s)`.
 12. Enter your git user name in the `What is your git user name?` prompt.
-13. Please choose `next` from the options listed in the `Select a frontend application type` prompt.
-14. To start next application, move into `PROJECT_NAME/my-next-app` directory and run below command:
+13. Please choose `node-express` from the options listed in the `Select a backend application type` prompt.
+14. To start node application, move into `PROJECT_NAME/my-node-app` directory and run below commands:
 ```bash
-npm run dev
+npm run build
+npm start
 ```
 15. To check application is running, open `http://localhost:3000/` in Browser.
  
