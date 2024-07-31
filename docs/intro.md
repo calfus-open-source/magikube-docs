@@ -39,9 +39,15 @@ There are a few things that you will need before starting with `magikube`. If yo
   brew install ansible@10
   ```
 
-### What you will need to create instance
-`magikube` will need a few things to be able to setup a cluster for you.
-1. If you have already configured AWS credentials then you will need profile name and can skip to step 3
-2. AWS Access Key/Secret
-3. Github personal access token for user that has admin rights
-4. Github organization name where you want repositories to be created. If no organization is provided, repositories will be created under executing user.
+### Prerequisites for Setting Up a Cluster with magikube
+Before you can set up a cluster with magikube, you will need to complete the following steps:
+
+1. Ensure you have your AWS credentials ready.
+2. Follow the instructions in the [AWS Keyspaces documentation](https://docs.aws.amazon.com/keyspaces/latest/devguide/access.credentials.html) to generate your AWS Access Key and Secret Key.
+3. Once you have your AWS Access Key and Secret Key, install the AWS CLI on your local machine. Refer to the [AWS CLI installation guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for detailed instructions.
+4. Configure your AWS profile on your local machine using the following command:
+```bash
+aws configure --profile <profile_name>
+```
+5. Create a GitHub personal access token by following the instructions in the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Ensure that the *delete_repo* permission is enabled for the generated token.
+6. Have the GitHub organization name ready where you want the repositories to be created. If no organization is specified, repositories will be created under the executing user’s account.
