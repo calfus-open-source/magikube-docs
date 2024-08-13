@@ -2,6 +2,7 @@
 To deploy a React application along with its cloud infrastructure, please follow these steps:
 
 1. Create a new project
+    - The PROJECT_NAME should be in lowercase and must not include any capital letters.
 ```bash
 magikube new PROJECT_NAME
 ```
@@ -28,6 +29,7 @@ npm start
 🚨 If you proceed with this command, be aware that it will be a catastrophic event and can not be reverted. 🚨
 
 In case you need to destroy infrastructure and application that was created using `magikube`, you can run
+- All files from ECR repository `<prj-name>-<app-name>-app`, must be cleaned before executing the destroy command.
 ```bash
 magikube destroy PROJECT_NAME
 ```

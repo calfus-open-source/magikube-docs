@@ -1,7 +1,8 @@
 ## New Infrastructure
 To setup new AWS infrastructure, run following steps
 
-1. Start with new infrastructure creation 
+1. Start with new infrastructure creation
+    - The PROJECT_NAME should be in lowercase and must not include any capital letters.
 ```bash
 magikube new PROJECT_NAME
 ```
@@ -20,6 +21,7 @@ Now let magic happen
 🚨 If you proceed with this command, be aware that it will be a catastrophic event and can not be reverted. 🚨
 
 In case you need to destroy infrastructure that was created using `magikube`, you can run
+- All files from ECR repository `<prj-name>-<app-name>-app`, must be cleaned before executing the destroy command.
 ```bash
 magikube destroy PROJECT_NAME
 ```
