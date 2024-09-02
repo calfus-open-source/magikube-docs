@@ -2,7 +2,7 @@
 To deploy a Node application along with its cloud infrastructure, please follow these steps:
 
 1. Create a new project
-    - The PROJECT_NAME should be in lowercase and must not include any capital letters.
+    - The project name must begin with a lowercase letter, contain only lowercase letters, numbers, or underscores, be between 3 to 8 characters in length, and must not end with an underscore.
 ```bash
 magikube new PROJECT_NAME
 ```
