@@ -1,11 +1,7 @@
 ## New Infrastructure
 To setup new AWS infrastructure, run following steps
 
-1. Start with new infrastructure creation
-    - The project name must begin with a lowercase letter, contain only lowercase letters, numbers, or underscores, be between 3 to 8 characters in length, and must not end with an underscore.
-```bash
-magikube new PROJECT_NAME
-```
+1. To create base infrastructure using Magikube please refer to the documentation available at `/how-to/Create-Project`.
 2. Select `aws` from the options in `Select a Cloud Provider` prompt
 3. If you have setup a default region then `Select a Region` will show it. If that is the region you want to use then move to next step, otherwise you can change to region of your choice.
 4. Use `eks-nodegroup` for `Select a Cluster Type`
@@ -14,14 +10,7 @@ magikube new PROJECT_NAME
 7. If AWS profile name does not exist then `magikube` will create a new profile with you. It will need `AWS Access Key ID` and `AWS Secret Access Key`
 8. Which environment are you creating. Make selection in `Select an Environment`
 9. If you are creating a `non-production` environment, then select one or more lifecyles in `Select Lifecycle(s)`
+10. To create applications, please refer to the application-related documentation available at `/how-to/Apps/`.
 
-Now let magic happen 
-
-## Destroy
-🚨 If you proceed with this command, be aware that it will be a catastrophic event and can not be reverted. 🚨
-
-In case you need to destroy infrastructure that was created using `magikube`, you can run
-- All files from ECR repository `<prj-name>-<app-name>-app`, must be cleaned before executing the destroy command.
-```bash
-magikube destroy PROJECT_NAME
-```
+## Destroy Project
+To destroy infrastructure and applications, created using `magikube` please refer to the documentation available at `/how-to/Destroy-Project`.

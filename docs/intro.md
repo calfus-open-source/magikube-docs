@@ -44,13 +44,8 @@ There are a few things that you will need before starting with `magikube`. If yo
   brew install ansible@10
   ```
 
-### Prerequisites for setting up a cluster with magikube
-Please refer to pre-requisites for each cloud provider in respective sections
 
-### Post Deployment Setup
-1. Upon successful project creation, proceed with executing the following script:
-```bash
-chmod +x <PROJECT_NAME>/keycloak/config.sh
+##### Note: Please refer to pre-requisites for each cloud provider in respective sections.
 
-<PROJECT_NAME>/keycloak/config.sh
-```
+## Next Steps
+To create a new infrastructure using Magikube, refer documentation available at `/how-to/Create-Project`.
