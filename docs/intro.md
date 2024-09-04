@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-magikube helps you create production ready infrastructure and applications in minutes.⚡️
+Magikube helps you create production ready infrastructure and applications in minutes.⚡️
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ Install `magikube` from npm
 npm i -g magikube
 ```
 
-### What you'll need installed
+## Pre-requisites for Creating Infrastructure Using Magikube
 
 There are a few things that you will need before starting with `magikube`. If you already have some of these things on your mac, please skip over the step.
 
@@ -43,9 +43,14 @@ There are a few things that you will need before starting with `magikube`. If yo
   ```bash
   brew install ansible@10
   ```
+- GitHub
+  - Create a GitHub personal access token by following the instructions in the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Ensure that the *delete_repo*, *user*, *admin:org*  and *workflow* permission is enabled for the generated token.
+  - Have the GitHub organization name ready where you want the repositories to be created. If no organization is specified, repositories will be created under the executing user’s account.
 
+- Domain Name
+  - In order to run magikube and deploy application, you would need a domain name. Please keep one domain name ready before moving to next steps.
 
 ##### Note: Please refer to pre-requisites for each cloud provider in respective sections.
 
 ## Next Steps
-To create a new infrastructure using Magikube, refer documentation available at `/how-to/Create-Project`.
+To create new infrastructure using Magikube, please refer [Create Project](./how-to/Create-Project.md) guide.
