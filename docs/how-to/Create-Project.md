@@ -20,7 +20,7 @@ magikube new PROJECT_NAME
 10. Which environment are you creating. Make selection in `Select an Environment`.
 11. If you are creating a `non-production` environment, then select one or more lifecyles in `Select Lifecycle(s)`.
 12. Enter a domain name in the `Enter the Domain Name` prompt.
-13. To create applications, please refer to the application-related documentation [Apps Guide](./Apps/Backend/Backend.md).
+13. To create applications, please refer to the application-related documentation [Apps Guide](./Apps/Apps.md).
 
 ## Post Deployment Setup
 After successfully creating the project, proceed by executing the following script:

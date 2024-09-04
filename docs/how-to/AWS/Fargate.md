@@ -11,7 +11,7 @@ To setup new AWS infrastructure, follow below steps:
 8. Which environment are you creating. Make selection in `Select an Environment`.
 9. If you are creating a `non-production` environment, then select one or more lifecyles in `Select Lifecycle(s)`.
 10. Enter a domain name in the `Enter the Domain Name` prompt.
-11. To create applications, please refer [Apps Guide](../Apps/Backend/Backend.md).
+11. To create applications, please refer [Apps Guide](../Apps/Apps.md).
 
 ## Destroy Project
 To destroy infrastructure and applications, created using `magikube` please refer [Destroy Project](../Destroy-Project.md) guide.
