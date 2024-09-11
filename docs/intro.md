@@ -37,6 +37,7 @@ There are a few things that you will need before starting with `magikube`. If yo
   - To verify the current installed Terraform version, execute the command: `terraform --version`.
    ```bash
    tfenv install 1.8.2
+   tfenv use 1.8.2
    ```
 - Ansible
   - To verify the current installed Ansible version, execute the command: `ansible --version`.
