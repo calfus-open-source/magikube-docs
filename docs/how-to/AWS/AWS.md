@@ -14,3 +14,4 @@ aws configure --profile <profile_name>
 
 - [Fargate](./Fargate.md)
 - [Nodegroup](./Nodegroup.md)
+- [K8s](./K8s.md)
